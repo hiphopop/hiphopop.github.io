@@ -1,0 +1,72 @@
+html {
+    background-color: black;
+    background-image: url('http://blog.amin.org/sky2018/files/2014/02/tumblr-photography-wallpaper-1937216955.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+header {
+    background-color: #FFFFFF;
+    color: #0A0A0A;
+    padding: 5px;
+}
+.funky-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    color: black;
+    font-style: bold;
+}
+.funky-text2 {
+    background-color: #222222;
+    font-family: 'Lato', sans-serif;
+    border: 10px solid white;
+    padding: 30px;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 130%;
+}
+.funky-text2 img {
+    height: 100px;
+    border-width: 5px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    box-shadow: 3px 3px 5px 6px #000000;
+    margin: 5px;
+}
+.main-navigation {
+    background: #000;
+}
+.main-navigation a {
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    color: black;
+    background-color: #EDDFB7;
+    border-color: #00DD00;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.main-navigation a:hover {
+    background-color: #73580D;
+    color: #FFFFFF;
+}
+section {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+@media (max-width: 600px) {
+
+    section {
+    font-size: 20px;
+}
+.gallery img {
+    width: 100%;
+}
+    
+}
